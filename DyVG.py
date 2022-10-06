@@ -3,7 +3,7 @@
 
 # In[1]:
 
-#For running forst 
+#For running first 
 # !pip install torch_sparse torch-cluster torch-geometric==1.0.2 torch_scatter torch-geometric torch-spline-conv torchvision
 
 from __future__ import absolute_import
