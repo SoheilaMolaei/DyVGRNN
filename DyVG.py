@@ -765,7 +765,7 @@ def get_roc_scores(edges_pos, edges_neg, adj_orig_dense_list, embs):
 
 # VGRNN model
 
-class VGRNN(nn.Module):
+class DyVGRNN(nn.Module):
     def __init__(self, x_dim, h_dim, z_dim, n_layers, eps,K, bias=False):
         super(VGRNN, self).__init__()
         
@@ -1123,7 +1123,7 @@ x_in = Variable(torch.stack(x_in_list))
 
 # building model
 K=2
-model = VGRNN(x_dim, h_dim, z_dim, n_layers, eps,K, bias=True)
+model = DyVGRNN(x_dim, h_dim, z_dim, n_layers, eps,K, bias=True)
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 
