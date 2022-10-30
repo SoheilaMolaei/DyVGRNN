@@ -766,7 +766,7 @@ def get_roc_scores(edges_pos, edges_neg, adj_orig_dense_list, embs):
 
 class DyVGRNN(nn.Module):
     def __init__(self, x_dim, h_dim, z_dim, n_layers, eps,K, bias=False):
-        super(VGRNN, self).__init__()
+        super(DyVGRNN, self).__init__()
         
         self.x_dim = x_dim
         self.eps = eps
