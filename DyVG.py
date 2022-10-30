@@ -762,7 +762,7 @@ def get_roc_scores(edges_pos, edges_neg, adj_orig_dense_list, embs):
 # In[10]:
 
 
-# VGRNN model
+# DyVRNN model
 
 class DyVGRNN(nn.Module):
     def __init__(self, x_dim, h_dim, z_dim, n_layers, eps,K, bias=False):
