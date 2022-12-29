@@ -10,6 +10,9 @@ This repository contains a PyTorch implementation of DyVRNN (DYnamic mixture Var
 - scikit-learn
 - scipy
 # Repository Organization
+- ``` input_data.py ```
+- ``` preprocessing.py ```
+- ``` DyVG.py ```
 # Cite
 Please cite our paper if you use this code in your own work:
 ```
