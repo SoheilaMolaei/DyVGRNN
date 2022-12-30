@@ -3,8 +3,13 @@ This repository contains a PyTorch implementation of DyVRNN (DYnamic mixture Var
 ![overalView](https://user-images.githubusercontent.com/91316109/210011672-3e782c02-4bcf-47aa-a882-916eaf79502d.jpg)
 
 # Requirements
-!pip install torch_sparse torch-cluster torch-geometric==1.0.2 torch_scatter torch-geometric torch-spline-conv torchvision
 - Pytorch
+  - !pip install torch-scatter
+  - !pip install torch-sparse
+  - !pip install torch-cluster
+  - !pip install torch-spline-conv 
+  - !pip install torch-geometric==1.0.2
+  - !pip install torchvision
 - python 3.x
 - networkx
 - scikit-learn
